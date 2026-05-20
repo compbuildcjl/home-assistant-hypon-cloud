@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=ubuntu:22.04
 FROM $BUILD_FROM
 
 RUN apk add --no-cache mosquitto-clients
