@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:latest=ubuntu:22.04
+ARG BUILD_FROM=alpine:latest
 FROM $BUILD_FROM
 
 RUN apk add --no-cache mosquitto-clients
