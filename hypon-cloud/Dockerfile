@@ -1,6 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
-
+FROM $BUILD_FROM ghcr.io/home-assistant/armhf-base:latest
 RUN apk add --no-cache mosquitto-clients
 
 # Copy data for add-on
